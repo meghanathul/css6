@@ -1,0 +1,61 @@
+.box{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 5px blue;
+    text-shadow: 5px 5px 5px green;
+}
+.box1{
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+    background: black;
+    color: white;
+    box-shadow: 5px 5px 5px 2px blue;
+    text-shadow: 5px 5px 5px grey;
+
+}
+.card{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 5px blue;
+    text-shadow: 5px 5px 5px green;
+    /* transition: width 2s linear; */
+  transition: transform 5s;
+}
+.card:hover{
+    /* width: 400px; */
+    transform: skew(50deg);
+}
+.rotate{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background: cadetblue;
+    transition: trasform 3s;
+}
+.rotate:hover{
+    transform: rotate(50deg);
+}
+.move{
+   
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    background: greenyellow;
+    transition: all 3s ease-in; 
+}
+.move:hover{
+    transform: translateX(500px);
+}
+.demo{
+    
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    background: greenyellow;
+}
+.demo:hover{
+    width: 400px;
+}
